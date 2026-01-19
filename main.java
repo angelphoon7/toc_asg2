@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class CYKAlgorithm {
+class CYKAlgorithm {
 
     // Grammar stored as: RHS -> {LHS}
     static Map<String, Set<String>> grammar = new HashMap<>();
